@@ -1,0 +1,750 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"primary-fixed-dim":"#93ccff","on-secondary-fixed":"#001f27","surface-variant":"#d3e4fe","inverse-on-surface":"#eaf1ff","on-tertiary-container":"#fefcff","on-surface":"#0b1c30","surface-container-lowest":"#ffffff","on-primary-container":"#fdfcff","secondary-container":"#63dbfe","error-container":"#ffdad6","on-error-container":"#93000a","background":"#f8f9ff","tertiary":"#545c72","on-tertiary-fixed":"#131b2e","surface-bright":"#f8f9ff","secondary-fixed-dim":"#5cd5f8","inverse-primary":"#93ccff","outline":"#707881","on-background":"#0b1c30","surface-container":"#e5eeff","tertiary-fixed-dim":"#bec6e0","outline-variant":"#bfc7d2","secondary-fixed":"#b3ebff","tertiary-container":"#6c748b","on-error":"#ffffff","surface-container-highest":"#d3e4fe","secondary":"#00677d","inverse-surface":"#213145","on-surface-variant":"#3f4850","surface-dim":"#cbdbf5","on-secondary-container":"#005e73","on-primary-fixed":"#001d31","primary-fixed":"#cce5ff","surface-container-low":"#eff4ff","on-secondary":"#ffffff","surface-container-high":"#dce9ff","surface-tint":"#006398","on-primary-fixed-variant":"#004b73","primary":"#006194","on-tertiary":"#ffffff","on-secondary-fixed-variant":"#004e5f","error":"#ba1a1a","tertiary-fixed":"#dae2fd","on-primary":"#ffffff","surface":"#f8f9ff","on-tertiary-fixed-variant":"#3f465c","primary-container":"#007bb9"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-md":"1rem","gutter-sm":"1rem","space-sm":"0.5rem","space-xl":"2.5rem","margin":"2rem","space-lg":"1.5rem","gutter-lg":"2rem","margin-sm":"1rem","margin-lg":"4rem","gutter":"1.5rem","space-xs":"0.25rem"},fontFamily:{"caption":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"]},fontSize:{"caption":["12px",{lineHeight:"16px",letterSpacing:"0.01em",fontWeight:"500"}],"headline-xl":["48px",{lineHeight:"56px",letterSpacing:"-0.03em",fontWeight:"700"}],"headline-md":["24px",{lineHeight:"32px",letterSpacing:"-0.015em",fontWeight:"600"}],"body-md":["15px",{lineHeight:"24px",letterSpacing:"0em",fontWeight:"400"}],"label-sm":["11px",{lineHeight:"16px",letterSpacing:"0.04em",fontWeight:"700"}],"body-lg":["18px",{lineHeight:"28px",letterSpacing:"-0.005em",fontWeight:"400"}],"headline-lg-mobile":["28px",{lineHeight:"36px",letterSpacing:"-0.02em",fontWeight:"700"}],"label-md":["13px",{lineHeight:"18px",letterSpacing:"0.02em",fontWeight:"600"}],"headline-sm":["20px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"600"}],"title-md":["16px",{lineHeight:"24px",letterSpacing:"-0.005em",fontWeight:"600"}],"headline-xl-mobile":["34px",{lineHeight:"42px",letterSpacing:"-0.02em",fontWeight:"700"}],"body-sm":["13px",{lineHeight:"20px",letterSpacing:"0.005em",fontWeight:"400"}],"headline-lg":["36px",{lineHeight:"44px",letterSpacing:"-0.025em",fontWeight:"700"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><img alt="RxDigita Logo" class="h-9 w-9 object-contain rounded-full shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3-hZppaR2T8q58COcjNTiZNp1zH9zmgSGfYJg7CfFBllpbhx494YawPvdDetfhESXs2TEZKP93YZY-W_lH3mdEMXpDx5PLSwApUuMaGzHlcDBKWmqUurj6db7SxcU7GDLNvC4o46Xj6zwAT62GEwMlNekqBcYWGvBJabaCw0IvCHuq45dX0r-rWgzByr1aNwPWCZiJIFoD9GgyqOINtqusZIfs9BxcQJ2-lPGR_pU2vzgkjrR1NXP"><div class="flex flex-col"><span class="font-title-md text-title-md text-primary font-bold tracking-tight">RxDigita</span><span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Biotech &amp; Health</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container-high text-primary font-bold rounded-lg"><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors rounded-lg" data-path="home" href="#">Home</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors rounded-lg" data-path="platforms" href="#">Platforms</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors rounded-lg" data-path="health-living" href="#">Health &amp; Living</a><a aria-current="page" class="px-space-md py-space-sm transition-colors bg-surface-container-high text-primary font-bold rounded-lg" data-path="innovation" href="#">Innovation</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors rounded-lg" data-path="company-legacy" href="#">Company &amp; Legacy</a></nav><div class="flex items-center gap-space-md"><button aria-label="Search platform" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[20px]">search</span></button><a class="hidden sm:inline-flex items-center justify-center px-space-lg py-space-sm rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container transition-colors shadow-sm" data-path="contact-us" href="#">Contact Us</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<!-- Top Hero Header / Architectural Title -->
+<section class="relative w-full px-margin py-space-xl overflow-hidden bg-gradient-to-b from-surface-container-low/60 via-surface to-surface">
+<!-- Ambient Bio-Light Accents -->
+<div class="absolute -top-32 right-12 w-96 h-96 rounded-full bg-secondary-fixed/40 blur-3xl pointer-events-none"></div>
+<div class="absolute top-48 left-10 w-80 h-80 rounded-full bg-primary-fixed/30 blur-3xl pointer-events-none"></div>
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-lg relative z-10">
+<!-- Breadcrumb / Status Overline -->
+<div class="flex flex-wrap items-center gap-space-sm font-label-sm text-label-sm uppercase tracking-wider text-secondary">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-primary font-bold">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+          R&amp;D Pipeline V4.2
+        </span>
+<span class="text-tertiary">/</span>
+<span class="text-on-surface-variant">Translational Medicine</span>
+<span class="text-tertiary">/</span>
+<span class="text-primary font-semibold">Human-Centered Engineering</span>
+</div>
+<!-- Main Section Header -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-end">
+<div class="lg:col-span-8 flex flex-col gap-space-sm">
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">
+            Innovation &amp; Digital Therapeutics: <span class="text-primary">Pioneering Human-Centric Medical Design</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl">
+            Converging micro-electromechanical sensing, acoustic cardiovascular telemetry, and non-stigmatizing wearable form factors. We synthesize clinical-grade precision with empathetic, daily-wear ergonomics.
+          </p>
+</div>
+<div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-space-sm justify-end lg:items-end">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex items-center gap-space-md w-full max-w-sm">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">biotech</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase">ISO 13485 &amp; MDR Ready</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">Class IIa / IIb Pipeline</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm text-tertiary font-caption text-caption">
+<span class="material-symbols-outlined text-[16px] text-secondary">verified_user</span>
+<span>Ethical IRB Protocol • Clinical Trials In Vivo</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Metric Strip -->
+<section class="w-full px-margin -mt-6 mb-space-xl">
+<div class="max-w-[1440px] mx-auto grid grid-cols-2 md:grid-cols-4 gap-gutter bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-tertiary uppercase">Acoustic Signal Res.</span>
+<span class="font-headline-md text-headline-md text-primary font-bold">99.4%</span>
+<span class="font-caption text-caption text-on-surface-variant mt-0.5">Dual-MEMS phonocardiogram</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-tertiary uppercase">Sensor Profile Thickness</span>
+<span class="font-headline-md text-headline-md text-secondary font-bold">1.8 mm</span>
+<span class="font-caption text-caption text-on-surface-variant mt-0.5">Flexible medical hydrocolloid</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-tertiary uppercase">Glycemic MARD</span>
+<span class="font-headline-md text-headline-md text-primary font-bold">7.8%</span>
+<span class="font-caption text-caption text-on-surface-variant mt-0.5">Inter-day analytical precision</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-tertiary uppercase">Cohort Ingress</span>
+<span class="font-headline-md text-headline-md text-tertiary font-bold">1,420+</span>
+<span class="font-caption text-caption text-on-surface-variant mt-0.5">Enrolled longitudinal subjects</span>
+</div>
+</div>
+</section>
+<!-- Initiative 1: Medical Device Design Research -->
+<section class="w-full px-margin py-space-xl bg-surface">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-xl">
+<!-- Section Header with badge -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<div class="flex items-center gap-space-xs">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm uppercase font-bold tracking-wide">Initiative 01</span>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-wider">Device Architecture</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+            Medical Device Design Research
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Deconstructing medical hostility through sculptural, anatomically compliant geometries. Our DeSign lab replaces institutional clinical bulk with breathable, second-skin microelectronics.
+          </p>
+</div>
+<div class="flex items-center gap-space-sm">
+<button class="px-space-md py-space-sm bg-surface-container hover:bg-surface-container-high text-primary font-label-md text-label-md rounded-lg transition-colors flex items-center gap-1.5 shadow-sm" id="viewDesignSpecBtn">
+<span class="material-symbols-outlined text-[18px]">view_in_ar</span>
+            Industrial CAD Schematics
+          </button>
+</div>
+</div>
+<!-- Dual Cards: Heart DeSign & Glucose DeSign -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter-lg">
+<!-- CARD 1: Heart DeSign -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between gap-space-lg hover:shadow-md transition-shadow group">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-surface-container text-primary font-label-sm text-label-sm uppercase font-bold">
+                Program • Heart DeSign
+              </span>
+<span class="inline-flex items-center gap-1 text-secondary font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                Continuous 6-Lead Acoustics
+              </span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold group-hover:text-primary transition-colors">
+                Cardiovascular Acoustics &amp; ECG Anomaly Telemetry
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Next-generation continuous heart murmur resonance detection fused with multi-vector electrophysiological capture. Features ultra-low profile sternal contouring engineered for 14-day persistent hydrogel adhesion without dermal maceration.
+              </p>
+</div>
+<!-- Visual Component: Heart Acoustic & Vector ECG Visualizer -->
+<div class="relative w-full h-56 bg-surface-container-low rounded-xl p-space-md overflow-hidden flex flex-col justify-between">
+<!-- Background Ambient Wave -->
+<svg class="absolute inset-0 w-full h-full text-surface-container-high/40" preserveAspectRatio="none" viewBox="0 0 400 150">
+<path d="M0,80 Q50,40 100,70 T200,90 T300,50 T400,75 L400,150 L0,150 Z" fill="currentColor"></path>
+</svg>
+<!-- Header readout inside card -->
+<div class="relative z-10 flex items-center justify-between font-caption text-caption text-tertiary">
+<span class="flex items-center gap-1 text-on-surface font-semibold">
+<span class="material-symbols-outlined text-[16px] text-error">monitor_heart</span>
+                  Sternal Hydro-Array (Ch. 1-3)
+                </span>
+<span class="font-mono bg-surface-container px-2 py-0.5 rounded text-primary">HR: 71 bpm • QTc: 412ms</span>
+</div>
+<!-- Inline Dynamic ECG Acoustic Graph -->
+<div class="relative z-10 my-auto py-2">
+<svg class="w-full h-20 text-primary" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 500 80">
+<path d="M 0,40 L 40,40 L 50,38 L 60,42 L 70,40 L 85,40 L 95,28 L 105,55 L 115,10 L 125,72 L 135,36 L 145,43 L 155,40 L 175,40 L 185,32 L 205,32 L 215,40 L 250,40 L 260,38 L 270,42 L 280,40 L 295,40 L 305,28 L 315,55 L 325,10 L 335,72 L 345,36 L 355,43 L 365,40 L 385,40 L 395,32 L 415,32 L 425,40 L 460,40 L 475,38 L 500,40"></path>
+</svg>
+</div>
+<!-- Acoustic Micro-Spectrogram Bar Indicators -->
+<div class="relative z-10 flex items-center justify-between text-caption text-tertiary font-label-sm">
+<div class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span>S1/S2 Valvular Sound Amplitude: Nominal</span>
+</div>
+<span class="font-mono text-secondary">0.4 - 250 Hz Passband</span>
+</div>
+</div>
+<!-- Feature Checklist -->
+<div class="grid grid-cols-2 gap-space-sm pt-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+<span>Sub-dermal acoustic MEMS</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+<span>Zero-compression sternum band</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+<span>Atrial fibrillation flagging</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+<span>IP68 waterproof showerproof</span>
+</div>
+</div>
+</div>
+<!-- Bottom Action -->
+<div class="pt-space-md bg-surface-container-low/40 -mx-space-lg -mb-space-lg px-space-lg pb-space-lg rounded-b-xl flex items-center justify-between">
+<span class="font-caption text-caption text-tertiary">Clinical Registry: <strong class="text-on-surface font-semibold">NCT-0589211</strong></span>
+<a class="font-label-md text-label-md text-primary font-bold hover:text-primary-container inline-flex items-center gap-1 transition-colors" href="#">
+              DeSign Architecture Paper <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- CARD 2: Glucose DeSign -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between gap-space-lg hover:shadow-md transition-shadow group">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-surface-container text-secondary font-label-sm text-label-sm uppercase font-bold">
+                Program • Glucose DeSign
+              </span>
+<span class="inline-flex items-center gap-1 text-primary font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                Discreet Form Factor
+              </span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold group-hover:text-primary transition-colors">
+                Human-Centered Wearable Continuous Glucose Monitoring
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Overcoming clinical stigma through bespoke jewelry-like industrial design. Utilizing painless microneedle fluid dynamics integrated into a coin-sized biometric disk that sits imperceptibly against the skin without medical conspicuousness.
+              </p>
+</div>
+<!-- Visual Showcase: The Disk CAD & Interstitial Telemetry -->
+<div class="relative w-full h-56 bg-surface-container-low rounded-xl p-space-md overflow-hidden flex flex-col justify-between">
+<div class="flex items-center justify-between relative z-10">
+<span class="font-label-sm text-label-sm uppercase text-secondary font-bold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">donut_small</span>
+                  RxDisk Micro-Array (12.4mm ∅)
+                </span>
+<span class="px-2 py-0.5 rounded bg-surface text-primary font-label-sm text-label-sm font-mono font-bold">98 mg/dL → STABLE</span>
+</div>
+<!-- Graphic representation of the microneedle disk sensor -->
+<div class="relative z-10 flex items-center justify-around py-1">
+<!-- Circular interactive disk representation -->
+<div class="relative w-28 h-28 rounded-full bg-surface shadow-md flex items-center justify-center">
+<div class="absolute inset-1 rounded-full bg-gradient-to-tr from-surface-variant to-surface-container-lowest flex items-center justify-center">
+<div class="w-14 h-14 rounded-full bg-surface shadow-inner flex flex-col items-center justify-center text-center">
+<span class="font-label-sm text-label-sm text-secondary font-bold leading-none">Rx</span>
+<span class="text-[9px] font-mono text-tertiary tracking-tighter">DISC 02</span>
+</div>
+</div>
+<!-- Radial micro-channel pins -->
+<div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+<div class="w-full h-0.5 bg-primary/20 rotate-45"></div>
+<div class="w-full h-0.5 bg-primary/20 -rotate-45"></div>
+</div>
+</div>
+<!-- Interstitial fluid telemetry stats -->
+<div class="flex flex-col gap-1.5">
+<div class="bg-surface px-3 py-1.5 rounded-lg shadow-sm">
+<span class="font-caption text-caption text-tertiary block">ISF Diffusion Depth</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">650 μm (Painless)</span>
+</div>
+<div class="bg-surface px-3 py-1.5 rounded-lg shadow-sm">
+<span class="font-caption text-caption text-tertiary block">Lag Time to Capillary</span>
+<span class="font-title-md text-title-md text-secondary font-bold">&lt; 3.2 minutes</span>
+</div>
+</div>
+</div>
+<div class="relative z-10 flex items-center justify-between font-caption text-caption text-tertiary">
+<span>Translucent medical elastomer rim</span>
+<span class="text-primary font-semibold">18-Day Biocompatibility</span>
+</div>
+</div>
+<!-- Feature Checklist -->
+<div class="grid grid-cols-2 gap-space-sm pt-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span>Non-medical, jewelry form-factor</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span>Direct NFC tap &amp; BLE streaming</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span>Zero calibration required</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span>Hypoallergenic acrylate seal</span>
+</div>
+</div>
+</div>
+<!-- Bottom Action -->
+<div class="pt-space-md bg-surface-container-low/40 -mx-space-lg -mb-space-lg px-space-lg pb-space-lg rounded-b-xl flex items-center justify-between">
+<span class="font-caption text-caption text-tertiary">Patent Pending: <strong class="text-on-surface font-semibold">US-2024-03912</strong></span>
+<a class="font-label-md text-label-md text-secondary font-bold hover:text-primary transition-colors inline-flex items-center gap-1" href="#">
+              Ergonomic User Study <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Initiative 2: WellBeing & Digital Companion Suites (RxApp + Metabolic Interactive Preview) -->
+<section class="w-full px-margin py-space-xl bg-surface-container-low/50">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-xl">
+<!-- Section Heading -->
+<div class="flex flex-col gap-space-xs max-w-3xl">
+<div class="flex items-center gap-space-xs">
+<span class="px-2.5 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm uppercase font-bold tracking-wide">Initiative 02</span>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Digital Ecosystem • Software as a Medical Device (SaMD)</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+          WellBeing &amp; Digital Companion Suites
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Bridging physical microneedle telemetry into contextual lifestyle adaptation. RxApp translates continuous interstitial bio-signals into actionable meal scheduling, insulin sensitivity adjustments, and real-time doctor telemetry feeds.
+        </p>
+</div>
+<!-- Main Showcase Grid: App Details + Interactive Phone Mockup + Diet Feature -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-center">
+<!-- Left Side: Core RxApp Capabilities -->
+<div class="lg:col-span-4 flex flex-col gap-space-lg order-2 lg:order-1">
+<!-- Item 1: Telemetry Hub -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[22px]">sensors</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="font-title-md text-title-md text-on-surface font-bold">Microneedle Telemetry</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Low-latency sub-GHz &amp; Bluetooth 5.4 synchronization direct from the CGM Disk and Heart DeSign patch every 60 seconds.
+                </p>
+</div>
+</div>
+</div>
+<!-- Item 2: Meal Photo Computer Vision -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[22px]">center_focus_strong</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="font-title-md text-title-md text-on-surface font-bold">Meal Photo Recognition AI</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Instant macro-nutrient breakdown and glycemic load prediction based on volumetric food scanning prior to ingestion.
+                </p>
+</div>
+</div>
+</div>
+<!-- Item 3: Medication Reminders & Adherence -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[22px]">medication</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="font-title-md text-title-md text-on-surface font-bold">Smart Timing Pharmacokinetics</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Algorithmically alerts users to take prescription doses during optimal metabolic uptake windows, not static clock times.
+                </p>
+</div>
+</div>
+</div>
+<!-- Item 4: Doctor Telemetry Export -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-tertiary shrink-0">
+<span class="material-symbols-outlined text-[22px]">clinical_notes</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="font-title-md text-title-md text-on-surface font-bold">Physician FHIR/EHR Portals</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  One-tap encrypted PDF or direct Epic/Cerner HL7 telemetry push with ambulatory glucose profiles and cardiac events.
+                </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Center: Interactive Phone Mockup Previewing RxApp UI -->
+<div class="lg:col-span-4 flex justify-center order-1 lg:order-2">
+<!-- Smartphone Outer Enclosure -->
+<div class="relative w-[320px] sm:w-[350px] bg-on-surface rounded-[44px] p-3 shadow-2xl ring-1 ring-surface-variant/30">
+<!-- Dynamic Island / Speaker Notch -->
+<div class="absolute top-6 left-1/2 -translate-x-1/2 w-28 h-5 bg-on-surface rounded-full z-30 flex items-center justify-center">
+<div class="w-3 h-3 rounded-full bg-surface-container-low/20 mr-2"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-primary/40"></div>
+</div>
+<!-- Phone Glass Screen Canvas -->
+<div class="relative w-full bg-surface rounded-[36px] overflow-hidden pt-10 pb-6 px-4 flex flex-col gap-3 min-h-[580px]">
+<!-- App Top Bar -->
+<div class="flex items-center justify-between pb-2 border-b border-surface-container">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-on-primary font-bold text-caption">Rx</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface font-bold leading-none">RxCompanion</span>
+<span class="text-[10px] text-secondary font-medium flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Synchronized
+                    </span>
+</div>
+</div>
+<button class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px]">notifications</span>
+</button>
+</div>
+<!-- Live Dynamic Biometric Metric Card (Interactive Tab Control) -->
+<div class="bg-surface-container-lowest p-3 rounded-2xl shadow-sm flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-caption text-caption text-tertiary uppercase font-bold">Continuous Stream</span>
+<div class="flex gap-1 bg-surface-container p-0.5 rounded-lg text-[10px] font-semibold">
+<button class="px-2 py-0.5 rounded bg-surface text-primary shadow-xs" id="phoneToggleGlucose">Glucose</button>
+<button class="px-2 py-0.5 rounded text-tertiary hover:text-on-surface" id="phoneToggleHeart">Cardio</button>
+</div>
+</div>
+<!-- Main Value Dynamic Container -->
+<div class="flex items-baseline justify-between" id="phoneMetricContainer">
+<div class="flex items-baseline gap-1">
+<span class="font-headline-lg text-headline-lg text-on-surface font-bold" id="phoneMetricValue">104</span>
+<span class="font-label-md text-label-md text-tertiary" id="phoneMetricUnit">mg/dL</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-secondary font-caption text-caption font-bold flex items-center gap-1" id="phoneMetricBadge">
+<span class="material-symbols-outlined text-[14px]">trending_flat</span> In Target (89%)
+                  </span>
+</div>
+<!-- SVG Sparkline Wave Inside Phone Mockup -->
+<div class="w-full h-24 bg-surface-container-low/60 rounded-xl p-2 relative overflow-hidden flex flex-col justify-end">
+<!-- Target zone band -->
+<div class="absolute inset-x-0 top-6 bottom-6 bg-secondary/5 rounded border-y border-dashed border-secondary/20 pointer-events-none"></div>
+<svg class="w-full h-16 text-primary transition-all duration-300" fill="none" id="phoneWaveSvg" viewBox="0 0 300 60">
+<!-- Area under curve -->
+<path d="M0,45 Q40,42 70,25 T140,28 T210,18 T280,32 L300,30 L300,60 L0,60 Z" fill="currentColor" fill-opacity="0.08" id="phoneWaveArea"></path>
+<!-- Line -->
+<path d="M0,45 Q40,42 70,25 T140,28 T210,18 T280,32 L300,30" id="phoneWaveLine" stroke="currentColor" stroke-linecap="round" stroke-width="2.5"></path>
+<!-- Current Pulse Dot -->
+<circle class="animate-ping" cx="280" cy="32" fill="#006194" id="phoneWaveDot" opacity="0.75" r="4"></circle>
+<circle cx="280" cy="32" fill="#006194" r="3"></circle>
+</svg>
+<div class="flex items-center justify-between text-[9px] text-tertiary font-mono pt-1">
+<span>10:00</span>
+<span>12:00 (Lunch)</span>
+<span>14:00 (Now)</span>
+</div>
+</div>
+</div>
+<!-- AI Meal & Metabolic Suggestion Tile -->
+<div class="bg-surface-container-lowest p-3 rounded-2xl shadow-sm flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[20px]">smart_toy</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface font-bold truncate">Postprandial Response: Low</span>
+<span class="text-[11px] text-on-surface-variant truncate">Grilled Mediterranean Salad parsed cleanly.</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-secondary">check</span>
+</div>
+<!-- Quick Action Grid in Phone -->
+<div class="grid grid-cols-3 gap-2 text-center">
+<div class="bg-surface-container-lowest p-2 rounded-xl flex flex-col items-center gap-1">
+<span class="material-symbols-outlined text-[18px] text-primary">photo_camera</span>
+<span class="text-[10px] font-semibold text-on-surface">Log Meal</span>
+</div>
+<div class="bg-surface-container-lowest p-2 rounded-xl flex flex-col items-center gap-1">
+<span class="material-symbols-outlined text-[18px] text-secondary">water_drop</span>
+<span class="text-[10px] font-semibold text-on-surface">Hydration</span>
+</div>
+<div class="bg-surface-container-lowest p-2 rounded-xl flex flex-col items-center gap-1">
+<span class="material-symbols-outlined text-[18px] text-tertiary">share</span>
+<span class="text-[10px] font-semibold text-on-surface">Doctor</span>
+</div>
+</div>
+<!-- Bottom Simulated Home Indicator -->
+<div class="w-24 h-1 bg-on-surface/20 rounded-full mx-auto mt-auto"></div>
+</div>
+</div>
+</div>
+<!-- Right Side: AI Metabolic Programming & Deep Dive -->
+<div class="lg:col-span-4 flex flex-col gap-space-lg order-3">
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs text-secondary">
+<span class="material-symbols-outlined text-[22px]">restaurant</span>
+<span class="font-label-sm text-label-sm uppercase font-bold">Initiative 02 • Diet Subsystem</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">
+              Diet &amp; Metabolic Programming
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Replaces static nutritional advice with dynamic personal insulin sensitivity mapping. The algorithm calculates how a specific individual metabolizes proteins vs carbohydrates at varying circadian intervals.
+            </p>
+<!-- Algorithm Flow Diagram Micro-Module -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col gap-space-sm font-caption text-caption">
+<div class="flex items-center justify-between font-semibold text-on-surface">
+<span>Algorithmic Dynamic Adjustment</span>
+<span class="text-secondary font-mono">v3.4 NeuroNet</span>
+</div>
+<!-- Steps -->
+<div class="flex flex-col gap-2">
+<div class="flex items-center gap-2">
+<span class="w-5 h-5 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold text-[10px]">1</span>
+<span class="text-on-surface-variant font-medium">Meal Image volumetric decomposition</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-5 h-5 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-bold text-[10px]">2</span>
+<span class="text-on-surface-variant font-medium">Real-time CGM interstitial delta correlation</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-5 h-5 rounded-full bg-surface-container-high text-primary flex items-center justify-center font-bold text-[10px]">3</span>
+<span class="text-on-surface-variant font-medium">Next-day meal cadence &amp; carb buffering suggestion</span>
+</div>
+</div>
+</div>
+<!-- Precision Metric Card -->
+<div class="grid grid-cols-2 gap-space-sm pt-space-xs">
+<div class="p-space-sm bg-surface-container-low rounded-lg">
+<span class="font-caption text-caption text-tertiary">Post-Prandial Spike Mod.</span>
+<span class="font-title-md text-title-md text-primary font-bold block">-34%</span>
+</div>
+<div class="p-space-sm bg-surface-container-low rounded-lg">
+<span class="font-caption text-caption text-tertiary">Time-in-Range (TIR)</span>
+<span class="font-title-md text-title-md text-secondary font-bold">+18.5 hrs</span>
+</div>
+</div>
+<button class="w-full mt-2 py-space-sm rounded-lg bg-surface-container hover:bg-surface-container-high text-primary font-label-md text-label-md font-bold transition-colors flex items-center justify-center gap-1.5">
+<span>View Clinical Diet Study Data</span>
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Clinical Trial Pipeline & Innovation Roadmap -->
+<section class="w-full px-margin py-space-xl bg-surface">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-xl">
+<!-- Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-tertiary font-label-sm text-label-sm uppercase font-bold tracking-wide">Validation</span>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-wider">Clinical Progression</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+            Clinical Trial Pipeline &amp; Innovation Roadmap
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+            From computational biophysics modeling to randomized multi-center controlled trials. Track our validation progress toward global regulatory authorization.
+          </p>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-primary animate-pulse"></span>
+<span class="font-caption text-caption text-tertiary font-medium">Updated Q1 2025 Regulatory Filing</span>
+</div>
+</div>
+<!-- Interactive / Sleek Pipeline Table & Progress Trackers -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<!-- Desktop Pipeline Header -->
+<div class="hidden md:grid grid-cols-12 gap-space-md px-space-lg py-space-md bg-surface-container font-label-md text-label-md text-tertiary uppercase font-bold">
+<div class="col-span-4">Program &amp; Indication</div>
+<div class="col-span-2">Technology Layer</div>
+<div class="col-span-4">Clinical Stage Tracker</div>
+<div class="col-span-2 text-right">Regulatory Target</div>
+</div>
+<!-- Pipeline Item 1: Heart DeSign Acoustic -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md p-space-lg items-center border-b border-surface-container-low hover:bg-surface-container-low/40 transition-colors">
+<div class="col-span-1 md:col-span-4 flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface font-bold">Heart DeSign Sternal Array</span>
+<span class="px-2 py-0.5 rounded-full bg-primary/10 text-primary text-[11px] font-bold">Active</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Continuous structural murmur detection &amp; paroxysmal AFib screening</span>
+</div>
+<div class="col-span-1 md:col-span-2 flex flex-col font-caption text-caption">
+<span class="text-on-surface font-semibold">Dual MEMS Phono + ECG</span>
+<span class="text-tertiary">14-Day Wear Hydrogel</span>
+</div>
+<!-- Multi-step rail tracker -->
+<div class="col-span-1 md:col-span-4 flex flex-col gap-1.5">
+<div class="flex items-center justify-between text-[11px] font-label-sm uppercase font-bold">
+<span class="text-primary">Phase 1 (Pilot)</span>
+<span class="text-primary">Phase 2 (Efficacy)</span>
+<span class="text-tertiary">Pivotal Multi-Center</span>
+</div>
+<!-- Progress Bar Rail -->
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden flex">
+<div class="h-full bg-primary w-2/3"></div>
+<div class="h-full bg-secondary w-1/12 animate-pulse"></div>
+</div>
+<span class="font-caption text-caption text-tertiary">Enrolled N=480 / 600 pts • 9 Hospital Sites</span>
+</div>
+<div class="col-span-1 md:col-span-2 flex md:justify-end">
+<span class="px-3 py-1 rounded-lg bg-surface-container text-on-surface font-label-sm text-label-sm font-semibold">
+              FDA De Novo 510(k)
+            </span>
+</div>
+</div>
+<!-- Pipeline Item 2: CGM Microneedle Disk -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md p-space-lg items-center border-b border-surface-container-low hover:bg-surface-container-low/40 transition-colors">
+<div class="col-span-1 md:col-span-4 flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface font-bold">Glucose DeSign &amp; Disk</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary/15 text-secondary text-[11px] font-bold">Pivotal Stage</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Non-stigmatizing interstitial glucose telemetric monitoring</span>
+</div>
+<div class="col-span-1 md:col-span-2 flex flex-col font-caption text-caption">
+<span class="text-on-surface font-semibold">Solid Microneedle Disk</span>
+<span class="text-tertiary">Enzymatic Nano-Coating</span>
+</div>
+<!-- Multi-step rail tracker -->
+<div class="col-span-1 md:col-span-4 flex flex-col gap-1.5">
+<div class="flex items-center justify-between text-[11px] font-label-sm uppercase font-bold">
+<span class="text-primary">Phase 1 Complete</span>
+<span class="text-primary">Phase 2 Validated</span>
+<span class="text-secondary font-bold">Pivotal Trial (84%)</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden flex">
+<div class="h-full bg-secondary w-5/6"></div>
+</div>
+<span class="font-caption text-caption text-tertiary">MARD verification in T1D/T2D cohorts</span>
+</div>
+<div class="col-span-1 md:col-span-2 flex md:justify-end">
+<span class="px-3 py-1 rounded-lg bg-surface-container text-on-surface font-label-sm text-label-sm font-semibold">
+              CE Mark MDR Class IIb
+            </span>
+</div>
+</div>
+<!-- Pipeline Item 3: RxApp SaMD closed loop -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md p-space-lg items-center border-b border-surface-container-low hover:bg-surface-container-low/40 transition-colors">
+<div class="col-span-1 md:col-span-4 flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface font-bold">RxApp Metabolic Companion</span>
+<span class="px-2 py-0.5 rounded-full bg-primary/10 text-primary text-[11px] font-bold">Pilot In Vivo</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Algorithmic dietary intervention &amp; dynamic insulin titration decision support</span>
+</div>
+<div class="col-span-1 md:col-span-2 flex flex-col font-caption text-caption">
+<span class="text-on-surface font-semibold">SaMD iOS/Android OS</span>
+<span class="text-tertiary">EHR HL7 FHIR Cloud</span>
+</div>
+<!-- Multi-step rail tracker -->
+<div class="col-span-1 md:col-span-4 flex flex-col gap-1.5">
+<div class="flex items-center justify-between text-[11px] font-label-sm uppercase font-bold">
+<span class="text-primary">Bench Simulation</span>
+<span class="text-primary">Pilot Clinical Study</span>
+<span class="text-tertiary">Real-World Evidence</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden flex">
+<div class="h-full bg-primary w-1/2"></div>
+</div>
+<span class="font-caption text-caption text-tertiary">N=320 Longitudinal Metabolic Pilot</span>
+</div>
+<div class="col-span-1 md:col-span-2 flex md:justify-end">
+<span class="px-3 py-1 rounded-lg bg-surface-container text-on-surface font-label-sm text-label-sm font-semibold">
+              SaMD Tier II Class
+            </span>
+</div>
+</div>
+<!-- Pipeline Item 4: Hummingbird Fuel Hybrid -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md p-space-lg items-center hover:bg-surface-container-low/40 transition-colors">
+<div class="col-span-1 md:col-span-4 flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface font-bold">Hummingbird Metabolic Fuel Cell</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-tertiary text-[11px] font-bold">Phase 1 Pre-Clin</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Glucose-powered micro-biofuel cells harvesting internal subcutaneous energy</span>
+</div>
+<div class="col-span-1 md:col-span-2 flex flex-col font-caption text-caption">
+<span class="text-on-surface font-semibold">Bio-Catalytic Anode</span>
+<span class="text-tertiary">Sub-derm battery free</span>
+</div>
+<!-- Multi-step rail tracker -->
+<div class="col-span-1 md:col-span-4 flex flex-col gap-1.5">
+<div class="flex items-center justify-between text-[11px] font-label-sm uppercase font-bold">
+<span class="text-primary">Pre-Clinical In Vitro</span>
+<span class="text-tertiary">Phase 1 First-in-Human</span>
+<span class="text-tertiary">Scalable Production</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden flex">
+<div class="h-full bg-primary w-1/4"></div>
+</div>
+<span class="font-caption text-caption text-tertiary">Biocompatibility in vivo toxicology cleared</span>
+</div>
+<div class="col-span-1 md:col-span-2 flex md:justify-end">
+<span class="px-3 py-1 rounded-lg bg-surface-container text-on-surface font-label-sm text-label-sm font-semibold">
+              Investigational IDE
+            </span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Collaborative Research & Clinical Partnership CTA -->
+<section class="w-full px-margin py-space-xl bg-surface-container-low">
+<div class="max-w-[1440px] mx-auto bg-surface-container-lowest rounded-2xl p-space-xl shadow-sm relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-space-xl">
+<!-- Background subtle decorative wave -->
+<div class="absolute -right-20 -bottom-20 w-80 h-80 rounded-full bg-secondary-fixed/30 blur-2xl pointer-events-none"></div>
+<div class="flex flex-col gap-space-sm max-w-2xl relative z-10">
+<span class="font-label-sm text-label-sm uppercase font-bold text-secondary tracking-widest">Academic &amp; Clinical Consortiums</span>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold">
+          Partner with RxDigita on Next-Cohort Human Studies
+        </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          We welcome principal investigators, institutional review boards, and metabolic specialists to explore collaborative data integration or propose novel therapeutic sensing protocols with our DeSign platform.
+        </p>
+<div class="flex flex-wrap items-center gap-space-md pt-2">
+<div class="flex items-center gap-2 font-caption text-caption text-tertiary">
+<span class="material-symbols-outlined text-primary text-[18px]">lock</span>
+<span>HIPAA &amp; GDPR Compliant Anonymized Telemetry</span>
+</div>
+<div class="flex items-center gap-2 font-caption text-caption text-tertiary">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified</span>
+<span>Open Research APIs for Medical Faculty</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-space-sm shrink-0 relative z-10 w-full md:w-auto">
+<a class="w-full sm:w-auto px-space-lg py-space-md bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md font-bold rounded-lg transition-colors text-center shadow-sm" href="#">
+          Request Investigator Pack
+        </a>
+<a class="w-full sm:w-auto px-space-lg py-space-md bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md font-semibold rounded-lg transition-colors text-center" href="#">
+          Download Whitepaper (PDF)
+        </a>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Micro-interaction for phone mockup view switching between Glucose and Cardio telemetry
+  (function() {
+    const btnGlucose = document.getElementById('phoneToggleGlucose');
+    const btnHeart = document.getElementById('phoneToggleHeart');
+    const valDisplay = document.getElementById('phoneMetricValue');
+    const unitDisplay = document.getElementById('phoneMetricUnit');
+    const badgeDisplay = document.getElementById('phoneMetricBadge');
+    const waveArea = document.getElementById('phoneWaveArea');
+    const waveLine = document.getElementById('phoneWaveLine');
+    const waveDot = document.getElementById('phoneWaveDot');
+    const svgElem = document.getElementById('phoneWaveSvg');
+
+    if (!btnGlucose || !btnHeart) return;
+
+    btnGlucose.addEventListener('click', () => {
+      btnGlucose.className = 'px-2 py-0.5 rounded bg-surface text-primary shadow-xs font-semibold';
+      btnHeart.className = 'px-2 py-0.5 rounded text-tertiary hover:text-on-surface';
+
+      valDisplay.textContent = '104';
+      unitDisplay.textContent = 'mg/dL';
+      badgeDisplay.innerHTML = '<span class="material-symbols-outlined text-[14px]">trending_flat</span> In Target (89%)';
+      badgeDisplay.className = 'px-2 py-0.5 rounded-full bg-surface-container text-secondary font-caption text-caption font-bold flex items-center gap-1';
+
+      svgElem.className = 'w-full h-16 text-primary transition-all duration-300';
+      waveArea.setAttribute('d', 'M0,45 Q40,42 70,25 T140,28 T210,18 T280,32 L300,30 L300,60 L0,60 Z');
+      waveLine.setAttribute('d', 'M0,45 Q40,42 70,25 T140,28 T210,18 T280,32 L300,30');
+      waveDot.setAttribute('cx', '280');
+      waveDot.setAttribute('cy', '32');
+    });
+
+    btnHeart.addEventListener('click', () => {
+      btnHeart.className = 'px-2 py-0.5 rounded bg-surface text-primary shadow-xs font-semibold';
+      btnGlucose.className = 'px-2 py-0.5 rounded text-tertiary hover:text-on-surface';
+
+      valDisplay.textContent = '71';
+      unitDisplay.textContent = 'BPM';
+      badgeDisplay.innerHTML = '<span class="material-symbols-outlined text-[14px]">favorite</span> Sinus Rhythm';
+      badgeDisplay.className = 'px-2 py-0.5 rounded-full bg-surface-container text-primary font-caption text-caption font-bold flex items-center gap-1';
+
+      svgElem.className = 'w-full h-16 text-secondary transition-all duration-300';
+      waveArea.setAttribute('d', 'M0,50 L40,50 L50,48 L55,52 L60,15 L65,55 L70,48 L80,50 L120,50 L130,48 L135,52 L140,15 L145,55 L150,48 L160,50 L200,50 L210,48 L215,52 L220,15 L225,55 L230,48 L240,50 L280,50 L300,50 L300,60 L0,60 Z');
+      waveLine.setAttribute('d', 'M0,50 L40,50 L50,48 L55,52 L60,15 L65,55 L70,48 L80,50 L120,50 L130,48 L135,52 L140,15 L145,55 L150,48 L160,50 L200,50 L210,48 L215,52 L220,15 L225,55 L230,48 L240,50 L280,50 L300,50');
+      waveDot.setAttribute('cx', '280');
+      waveDot.setAttribute('cy', '50');
+    });
+
+    // CAD button simple feedback
+    const cadBtn = document.getElementById('viewDesignSpecBtn');
+    if (cadBtn) {
+      cadBtn.addEventListener('click', () => {
+        cadBtn.classList.add('scale-95');
+        setTimeout(() => cadBtn.classList.remove('scale-95'), 150);
+      });
+    }
+  })();
+</script></main><footer class="w-full bg-surface-container-low"><div class="w-full px-margin py-space-xl flex flex-col gap-space-lg"><div class="flex flex-col lg:flex-row lg:items-center justify-between gap-gutter"><div class="flex flex-col gap-space-xs"><div class="flex items-center gap-space-sm"><img alt="RxDigita Logo" class="h-8 w-8 object-contain rounded-full shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3-hZppaR2T8q58COcjNTiZNp1zH9zmgSGfYJg7CfFBllpbhx494YawPvdDetfhESXs2TEZKP93YZY-W_lH3mdEMXpDx5PLSwApUuMaGzHlcDBKWmqUurj6db7SxcU7GDLNvC4o46Xj6zwAT62GEwMlNekqBcYWGvBJabaCw0IvCHuq45dX0r-rWgzByr1aNwPWCZiJIFoD9GgyqOINtqusZIfs9BxcQJ2-lPGR_pU2vzgkjrR1NXP"><span class="font-title-md text-title-md text-primary font-bold">RxDigita</span><span class="font-caption text-caption text-secondary px-space-xs py-0.5 rounded-full bg-surface-container">Bio-Clinical OS</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-md">Next-generation precision biotechnology, IoT micro-sensing arrays, and continuous digital metabolic health platforms.</p></div><div class="flex flex-wrap items-center gap-gutter"><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="platforms" href="#">MicroNeedles</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="platforms" href="#">ADME-Tox</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="platforms" href="#">CGM Disk</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="innovation" href="#">RxApp</a></div></div><div class="h-[1px] w-full bg-surface-container"></div><div class="flex flex-col sm:flex-row items-center justify-between gap-space-md font-caption text-caption text-tertiary"><div class="flex items-center gap-gutter-sm"><a class="hover:text-on-surface transition-colors" data-path="company-legacy" href="#">Privacy Policy</a><a class="hover:text-on-surface transition-colors" data-path="company-legacy" href="#">Terms of Service</a><a class="hover:text-on-surface transition-colors" data-path="contact-us" href="#">Clinical Inquiries</a></div><div>© 2025 RxDigita Inc. All rights reserved. Precision Medical Systems.</div></div></div></footer>
+
+</body></html>

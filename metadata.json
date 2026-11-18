@@ -1,0 +1,6 @@
+{
+  "name": "RxDigita — Biotech & Health",
+  "description": "Next-generation precision biotechnology, IoT micro-sensing arrays, and continuous digital metabolic health platforms.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

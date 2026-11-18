@@ -1,0 +1,635 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"primary-fixed-dim":"#93ccff","on-secondary-fixed":"#001f27","surface-variant":"#d3e4fe","inverse-on-surface":"#eaf1ff","on-tertiary-container":"#fefcff","on-surface":"#0b1c30","surface-container-lowest":"#ffffff","on-primary-container":"#fdfcff","secondary-container":"#63dbfe","error-container":"#ffdad6","on-error-container":"#93000a","background":"#f8f9ff","tertiary":"#545c72","on-tertiary-fixed":"#131b2e","surface-bright":"#f8f9ff","secondary-fixed-dim":"#5cd5f8","inverse-primary":"#93ccff","outline":"#707881","on-background":"#0b1c30","surface-container":"#e5eeff","tertiary-fixed-dim":"#bec6e0","outline-variant":"#bfc7d2","secondary-fixed":"#b3ebff","tertiary-container":"#6c748b","on-error":"#ffffff","surface-container-highest":"#d3e4fe","secondary":"#00677d","inverse-surface":"#213145","on-surface-variant":"#3f4850","surface-dim":"#cbdbf5","on-secondary-container":"#005e73","on-primary-fixed":"#001d31","primary-fixed":"#cce5ff","surface-container-low":"#eff4ff","on-secondary":"#ffffff","surface-container-high":"#dce9ff","surface-tint":"#006398","on-primary-fixed-variant":"#004b73","primary":"#006194","on-tertiary":"#ffffff","on-secondary-fixed-variant":"#004e5f","error":"#ba1a1a","tertiary-fixed":"#dae2fd","on-primary":"#ffffff","surface":"#f8f9ff","on-tertiary-fixed-variant":"#3f465c","primary-container":"#007bb9"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-md":"1rem","gutter-sm":"1rem","space-sm":"0.5rem","space-xl":"2.5rem","margin":"2rem","space-lg":"1.5rem","gutter-lg":"2rem","margin-sm":"1rem","margin-lg":"4rem","gutter":"1.5rem","space-xs":"0.25rem"},fontFamily:{"caption":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"]},fontSize:{"caption":["12px",{lineHeight:"16px",letterSpacing:"0.01em",fontWeight:"500"}],"headline-xl":["48px",{lineHeight:"56px",letterSpacing:"-0.03em",fontWeight:"700"}],"headline-md":["24px",{lineHeight:"32px",letterSpacing:"-0.015em",fontWeight:"600"}],"body-md":["15px",{lineHeight:"24px",letterSpacing:"0em",fontWeight:"400"}],"label-sm":["11px",{lineHeight:"16px",letterSpacing:"0.04em",fontWeight:"700"}],"body-lg":["18px",{lineHeight:"28px",letterSpacing:"-0.005em",fontWeight:"400"}],"headline-lg-mobile":["28px",{lineHeight:"36px",letterSpacing:"-0.02em",fontWeight:"700"}],"label-md":["13px",{lineHeight:"18px",letterSpacing:"0.02em",fontWeight:"600"}],"headline-sm":["20px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"600"}],"title-md":["16px",{lineHeight:"24px",letterSpacing:"-0.005em",fontWeight:"600"}],"headline-xl-mobile":["34px",{lineHeight:"42px",letterSpacing:"-0.02em",fontWeight:"700"}],"body-sm":["13px",{lineHeight:"20px",letterSpacing:"0.005em",fontWeight:"400"}],"headline-lg":["36px",{lineHeight:"44px",letterSpacing:"-0.025em",fontWeight:"700"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><img alt="RxDigita Logo" class="h-9 w-9 object-contain rounded-full shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDl9hoJkLzulHJEJQEra7Uoj6IJFct8nXA3BfNC8KcMPswO-vuOHhGup5oALCW-3R666zVJU3qGBfAXDbyXdNuypHY3E5q2xfZsBFqxs0RXwSDsa1MmsA7shSLsbsfeMLeZyx5JFLgR-w2QlbyUcZZnS1M3189YFZGiNIiKsQ8LIIxMVuz0-DQRFZ1mQ1NLobt0hg2r2o5U_xvIlY0svHaw4aNHMLl_VJkCSl7U-BKe-pBlmblocbjR"><div class="flex flex-col"><span class="font-title-md text-title-md text-primary font-bold tracking-tight">RxDigita</span><span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Biotech &amp; Health</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container-high text-primary font-bold rounded-lg"><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors rounded-lg" data-path="home" href="#">Home</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors rounded-lg" data-path="platforms" href="#">Platforms</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors rounded-lg" data-path="health-living" href="#">Health &amp; Living</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors rounded-lg" data-path="innovation" href="#">Innovation</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors rounded-lg" data-path="company-legacy" href="#">Company &amp; Legacy</a></nav><div class="flex items-center gap-space-md"><button aria-label="Search platform" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[20px]">search</span></button><a class="hidden sm:inline-flex items-center justify-center px-space-lg py-space-sm rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container transition-colors shadow-sm" data-path="contact-us" href="#">Contact Us</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<!-- Top Clinical Telemetry Bar -->
+<section class="w-full bg-surface-container-low py-space-sm px-margin">
+<div class="max-w-[1440px] mx-auto flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-md">
+<span class="inline-flex items-center gap-1.5 px-space-sm py-0.5 rounded-full bg-secondary-fixed/50 text-on-secondary-fixed font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span>
+          BIOMETRIC STREAM ACTIVE
+        </span>
+<span class="font-caption text-caption text-tertiary">Protocol: Bio-Clinical OS v4.8 • Device Node #7094</span>
+</div>
+<div class="flex items-center gap-space-lg text-tertiary font-caption text-caption">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px] text-primary">wifi_tethering</span> 2.4GHz BLE Matrix</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px] text-secondary">verified</span> FDA Class II Clearable Telemetry</span>
+<span class="flex items-center gap-1 text-on-surface font-title-md text-title-md">Sync Interval: <span class="text-primary font-bold">1.2s</span></span>
+</div>
+</div>
+</section>
+<!-- Editorial Section Header -->
+<section class="w-full px-margin pt-space-xl pb-space-lg bg-surface">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">Closed-Loop Human Telemetry</span>
+<span class="h-px w-12 bg-outline-variant"></span>
+<span class="font-caption text-caption text-tertiary">Bio-Adaptive Ecosystem</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-end">
+<div class="lg:col-span-8">
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">
+            Health &amp; Connected Living: Intelligent Nutrition, Sleep &amp; Exercise Telemetry
+          </h1>
+</div>
+<div class="lg:col-span-4 flex flex-col gap-space-xs">
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Unifying continuous metabolic data, neuro-rest circadian patterns, and bio-directional ergometer telemetry into a single therapeutic feedback matrix.
+          </p>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<span class="px-space-sm py-1 rounded bg-surface-container font-label-md text-label-md text-primary font-bold">3 Active Loops</span>
+<span class="px-space-sm py-1 rounded bg-surface-container font-label-md text-label-md text-secondary font-bold">Sub-Micron Sensing</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high font-label-md text-label-md text-on-surface font-bold">99.4% Precision</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 1: Nutrition & Smart Appliances -->
+<section class="w-full px-margin py-space-xl bg-surface-container-low/60">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-space-sm">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Module 01 // Molecular Intake</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Nutrition &amp; Smart Kitchen Ecosystem</h2>
+</div>
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-tertiary">
+<span class="material-symbols-outlined text-primary text-[18px]">water_drop</span>
+          Real-Time Micro-Infusion &amp; Glucose Scaffolding
+        </div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- Interactive CGM Curve + Kitchen Automation Panel -->
+<div class="lg:col-span-7 bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex flex-wrap items-center justify-between gap-space-sm">
+<div>
+<span class="font-caption text-caption text-tertiary uppercase">CGM Sensor Stream vs Micro-Dispense Trigger</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Dynamic Carbohydrate &amp; Electrolyte Titration</h3>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-low px-space-sm py-1 rounded-full">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+<span class="font-label-sm text-label-sm text-primary font-bold">CGM: 94 mg/dL [STABLE]</span>
+</div>
+</div>
+<!-- SVG Visual Telemetry Curve -->
+<div class="w-full bg-surface-container-low/40 rounded-lg p-space-md flex flex-col gap-space-xs">
+<div class="flex justify-between items-center text-tertiary font-caption text-caption">
+<span>06:00 (Fasting Baseline)</span>
+<span>12:00 (Post-Prandial Phase)</span>
+<span>18:00 (Pre-Workout Bolus)</span>
+<span>22:00 (Recovery)</span>
+</div>
+<div class="relative w-full h-44">
+<svg class="w-full h-full text-primary" fill="none" viewBox="0 0 700 160">
+<defs>
+<linearGradient id="cgmGrad" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#006194" stop-opacity="0.25"></stop>
+<stop offset="100%" stop-color="#006194" stop-opacity="0"></stop>
+</linearGradient>
+<linearGradient id="dispenseGrad" x1="0" x2="1" y1="0" y2="0">
+<stop offset="0%" stop-color="#00677d"></stop>
+<stop offset="100%" stop-color="#63dbfe"></stop>
+</linearGradient>
+</defs>
+<!-- Guideline gridlines -->
+<line opacity="0.3" stroke="#bfc7d2" stroke-dasharray="3 3" x1="0" x2="700" y1="40" y2="40"></line>
+<line opacity="0.3" stroke="#bfc7d2" stroke-dasharray="3 3" x1="0" x2="700" y1="80" y2="80"></line>
+<line opacity="0.3" stroke="#bfc7d2" stroke-dasharray="3 3" x1="0" x2="700" y1="120" y2="120"></line>
+<!-- Target Normal Range -->
+<rect fill="#63dbfe" height="50" opacity="0.08" width="700" x="0" y="55"></rect>
+<!-- Glucose Curve -->
+<path d="M 0 100 Q 120 110 220 70 T 400 60 T 550 90 T 700 80 L 700 160 L 0 160 Z" fill="url(#cgmGrad)"></path>
+<path d="M 0 100 Q 120 110 220 70 T 400 60 T 550 90 T 700 80" stroke="#006194" stroke-linecap="round" stroke-width="2.5"></path>
+<!-- Micro-dispense Events -->
+<circle cx="220" cy="70" fill="#00677d" r="5" stroke="#ffffff" stroke-width="2"></circle>
+<circle cx="400" cy="60" fill="#00677d" r="5" stroke="#ffffff" stroke-width="2"></circle>
+<circle cx="550" cy="90" fill="#00677d" r="5" stroke="#ffffff" stroke-width="2"></circle>
+</svg>
+</div>
+<div class="flex items-center justify-between font-caption text-caption text-on-surface-variant pt-space-xs">
+<span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-primary"></span> Interstitial Glucose Trajectory</span>
+<span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-secondary"></span> Auto-Dispensed Micro-Nutrient Pulse</span>
+<span class="text-tertiary">Optimal Range: 72–110 mg/dL</span>
+</div>
+</div>
+<!-- Feature Breakdown Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md pt-space-xs">
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-primary">
+<span class="material-symbols-outlined text-[20px]">vaccines</span>
+<span class="font-title-md text-title-md font-bold">Automated Micronutrient Delivery</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Cartridge-based micro-pumps formulate liquid mineral, adaptogen, and amino-acid suspensions directly into water carafe based on intraday biological depletion rates.
+              </p>
+<div class="flex items-center gap-2 mt-auto font-caption text-caption text-tertiary">
+<span class="material-symbols-outlined text-[14px] text-secondary">check_circle</span> 14 Micronutrients dynamically blended
+              </div>
+</div>
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-secondary">
+<span class="material-symbols-outlined text-[20px]">countertops</span>
+<span class="font-title-md text-title-md font-bold">Smart Kitchen Concept Sync</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Smart induction cooktops and pantry sensors cross-check macro composition against real-time glycogen reserves, recommending heat profiles that preserve thermolabile vitamins.
+              </p>
+<div class="flex items-center gap-2 mt-auto font-caption text-caption text-tertiary">
+<span class="material-symbols-outlined text-[14px] text-secondary">sync</span> Connected to BLE Kitchen Hub
+              </div>
+</div>
+</div>
+</div>
+<!-- Right Side: Kitchen Hardware Snapshot & Live Dispensary Cartridge Status -->
+<div class="lg:col-span-5 flex flex-col gap-gutter">
+<div class="relative rounded-xl overflow-hidden shadow-sm h-64 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="A clean, minimalist high-tech biotechnology smart kitchen counter with a clinical white and glass automated micronutrient dispenser, ambient soft cyan LED lighting, brushed medical-grade aluminum casing, fresh ingredients, and bright natural morning sunlight streaming across pristine surfaces." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8ZpDGVFSFy_b33DxI4hdSby2zbLkCw5CEiPJUxf8_uyaZGnXzaJ8Bmom8rLmAhdbXFUgSuDbm_3runRhODRvTp4R4H9_3nMrl7esx4UHHa62LW7n5OBxtB440BVYeqyulbrIJ7I4ux7iKByY-eiopWNRKMYNEux59L48UHt8gLBAGArgghqu84S8NSgPlHpjBVvVyi_Do0zNhQlqkqM47_KpBuIKNlZbC2yHxabk">
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent flex flex-col justify-end p-space-md text-on-primary">
+<span class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-wider">Kitchen Telemetry Appliance</span>
+<h4 class="font-title-md text-title-md font-bold">RxDigita Precision Dispensary Gen-3</h4>
+<p class="font-caption text-caption text-surface-variant">Sub-milligram accuracy with sealed cold-storage vacuum preservation.</p>
+</div>
+</div>
+<!-- Live Dispensary Cartridge Levels -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface font-bold">Active Cartridge Ratios</span>
+<span class="font-caption text-caption text-secondary font-bold">CALIBRATED</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<div class="flex flex-col gap-1">
+<div class="flex justify-between text-body-sm font-body-sm">
+<span class="text-on-surface font-medium">Magnesium L-Threonate + Zinc Picolinate</span>
+<span class="text-primary font-bold">88%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container">
+<div class="h-full rounded-full bg-primary" style="width: 88%"></div>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex justify-between text-body-sm font-body-sm">
+<span class="text-on-surface font-medium">Electrolyte Hydration Complex (Na/K/Cl)</span>
+<span class="text-secondary font-bold">64%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container">
+<div class="h-full rounded-full bg-secondary" style="width: 64%"></div>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex justify-between text-body-sm font-body-sm">
+<span class="text-on-surface font-medium">Methylated B-Complex &amp; CoQ10 Emulsion</span>
+<span class="text-tertiary font-bold">92%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container">
+<div class="h-full rounded-full bg-tertiary" style="width: 92%"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: Sleep Optimization & Neuro-Rest Architecture -->
+<section class="w-full px-margin py-space-xl bg-surface">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-space-sm">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Module 02 // Neuro-Rest Restoration</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Sleep Optimization &amp; Circadian Alignment</h2>
+</div>
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-primary font-bold">
+<span class="material-symbols-outlined text-[18px]">bedtime</span>
+          RxDigita Sleep Architecture Engine
+        </div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch">
+<!-- Sleep Dashboard Widget: Readiness Score & Staging Breakdown -->
+<div class="lg:col-span-5 bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between shadow-sm">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-caption text-caption uppercase text-tertiary font-bold">Sleep Quality Index (SQI)</span>
+<span class="px-space-sm py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold">OPTICALLY VALIDATED</span>
+</div>
+<div class="flex items-center gap-space-md py-space-sm">
+<!-- Radial Readiness Ring -->
+<div class="relative w-28 h-28 flex items-center justify-center">
+<svg class="w-full h-full -rotate-90" viewBox="0 0 100 100">
+<circle cx="50" cy="50" fill="none" r="40" stroke="#dce9ff" stroke-width="8"></circle>
+<circle cx="50" cy="50" fill="none" r="40" stroke="#006194" stroke-dasharray="251.2" stroke-dashoffset="22" stroke-linecap="round" stroke-width="8"></circle>
+</svg>
+<div class="absolute flex flex-col items-center justify-center">
+<span class="font-headline-md text-headline-md text-primary font-bold">92</span>
+<span class="font-caption text-caption text-tertiary">/100 SQI</span>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-title-md text-title-md font-bold text-on-surface">Exceptional Biological Recovery</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Core body temperature dropped 0.8°C right at deep phase onset (02:14 AM). Autonomous autonomic recovery index.</p>
+</div>
+</div>
+<!-- Sleep Staging Telemetry Bars -->
+<div class="flex flex-col gap-space-xs pt-space-xs">
+<div class="flex justify-between font-caption text-caption text-tertiary">
+<span>Staging Composition (7h 48m Total)</span>
+<span>Target: 7.5h+</span>
+</div>
+<div class="w-full h-4 rounded-full overflow-hidden flex bg-surface-container">
+<div class="h-full bg-primary" style="width: 24%" title="Deep Sleep (24%)"></div>
+<div class="h-full bg-secondary" style="width: 28%" title="REM (28%)"></div>
+<div class="h-full bg-primary-fixed-dim" style="width: 42%" title="Light Sleep (42%)"></div>
+<div class="h-full bg-outline-variant" style="width: 6%" title="Awake (6%)"></div>
+</div>
+<div class="grid grid-cols-4 gap-1 text-center font-caption text-caption pt-1 text-on-surface-variant">
+<div class="flex items-center gap-1 justify-center"><span class="w-2 h-2 rounded bg-primary"></span> Deep 1h 52m</div>
+<div class="flex items-center gap-1 justify-center"><span class="w-2 h-2 rounded bg-secondary"></span> REM 2h 11m</div>
+<div class="flex items-center gap-1 justify-center"><span class="w-2 h-2 rounded bg-primary-fixed-dim"></span> Light 3h 18m</div>
+<div class="flex items-center gap-1 justify-center"><span class="w-2 h-2 rounded bg-outline-variant"></span> Awake 27m</div>
+</div>
+</div>
+</div>
+<!-- Bottom Telemetry Badges -->
+<div class="grid grid-cols-2 gap-space-sm pt-space-md mt-space-sm bg-surface-container-lowest p-space-sm rounded-lg">
+<div class="flex flex-col">
+<span class="font-caption text-caption text-tertiary">Lowest Heart Rate</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">47 <span class="font-caption text-caption text-tertiary">BPM</span></span>
+</div>
+<div class="flex flex-col">
+<span class="font-caption text-caption text-tertiary">HRV Overnight Median</span>
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">78 <span class="font-caption text-caption text-tertiary">ms</span></span>
+</div>
+</div>
+</div>
+<!-- Middle & Right: The RxDigita Sleep App & Ambient Bedroom IoT -->
+<div class="lg:col-span-7 flex flex-col gap-gutter justify-between">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<div class="relative rounded-xl overflow-hidden shadow-sm h-64 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="A tranquil, high-end circadian bedroom sanctuary with soft dim therapeutic 630nm red-amber night lighting, crisp organic linen bed sheets, a sleek minimal biometric sensor hub on a floating nightstand, deep peaceful shadows, and clean clinical tranquility." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCOwOod2BKCOXH3nVmGx2W1qDR8nqbrvzWG4rGVqUAnu2AI05zDho7TpR3KdijNw4eCS0iWRCy_6RDSW59g49QOaUJFiC4O8T6vVqIEi_jetX2nt6tnEsI1dlwDGaM_JvK3HAUFdlI-pMjaEm3ktq3bwgpvFMjtbLE8GMcLAdpG_V7UYUJhSNWTEgnBtQmPvG7oEw1Ugux7-H5rE8xsBEFQmWJx27sd0W1mWFxqVU">
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/90 via-on-surface/20 to-transparent flex flex-col justify-end p-space-md text-on-primary">
+<span class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-wider">Hardware Protocol</span>
+<h4 class="font-title-md text-title-md font-bold">Bedroom Sanctuary IoT Actuation</h4>
+<p class="font-caption text-caption text-surface-variant">Automated thermoregulation cooling the bed matrix dynamically.</p>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-primary">
+<span class="material-symbols-outlined text-[22px]">thermostat</span>
+<span class="font-title-md text-title-md font-bold">Thermal Drop Integration</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  When the RxApp detects nocturnal melatonin release, it triggers the connected HVAC thermostat to lower room ambient temperature to 18.5°C, initiating restorative Stage 3 Slow-Wave Sleep.
+                </p>
+</div>
+<div class="flex items-center justify-between p-space-xs bg-surface-container-low rounded-lg font-caption text-caption">
+<span class="text-tertiary">Current Bedroom Thermal:</span>
+<span class="text-on-surface font-bold">19.1°C (Target reached)</span>
+</div>
+</div>
+</div>
+<!-- The RxDigita Sleep App Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-14 h-14 rounded-xl bg-primary-fixed flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[32px]">smartphone</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="font-title-md text-title-md font-bold text-on-surface">The RxDigita Sleep Companion Application</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Translates intraday glucose deviations and evening blue light exposure into personalized wind-down schedules with soundscape neuro-pacing.
+                </p>
+</div>
+</div>
+<a class="shrink-0 px-space-md py-space-sm bg-surface-container-high hover:bg-surface-container-highest text-primary font-label-md text-label-md rounded-lg transition-colors flex items-center gap-1.5 font-bold" data-path="innovation" href="#">
+              Explore RxApp <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: Smart Exercise & Connected Bike -->
+<section class="w-full px-margin py-space-xl bg-surface-container-low/60">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-space-sm">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Module 03 // Biomechanical Workload</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Connected Bike &amp; Exercise Telemetry</h2>
+</div>
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-tertiary">
+<span class="material-symbols-outlined text-secondary text-[18px]">directions_bike</span>
+          Bi-directional Real-Time Resistance Balancing
+        </div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch">
+<!-- Connected Bike Hardware Feature Hero -->
+<div class="lg:col-span-6 relative rounded-xl overflow-hidden shadow-sm flex flex-col justify-end p-space-lg bg-surface-container min-h-[380px]">
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="A cutting-edge indoor smart stationary cycle ergometer in an ultra-modern, sunlit clinical fitness bio-lab. Brushed dark titanium frame with integrated touch glass telemetry HUD showing watts, heart rate, and lactate curves. High clarity professional biotech lifestyle photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBK2at82yjKBAD85vXIREZfd9ykeFGG_kPR46hbb50Ke8_S5-uuKzbV7q6TB8SD-PkhrTppMxzTBkvcLJAYcE9RuXmhdcV-4-QqgxZnatO-HFnXfmW8ivkcMdHlUwDNya4AsjtsLaGQQVYF_AIZX4gxwgapsGIJNZhgIoR4bCr5OpH8B4NzQ06z7hIHLqZvukRj-5DZP_N9j71jfcvpU_qGAH71nQXAniK2nCHyZbE">
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/90 via-on-surface/30 to-transparent"></div>
+<div class="relative z-10 flex flex-col gap-space-xs text-on-primary">
+<span class="px-space-sm py-0.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm self-start font-bold uppercase tracking-wider">
+              Ergometer Hardware Matrix
+            </span>
+<h3 class="font-headline-md text-headline-md font-bold">The RxConnected Smart Bike System</h3>
+<p class="font-body-md text-body-md text-surface-variant max-w-lg">
+              Dynamic electromagnetic resistance that modulates automatically based on your real-time lactate threshold and glucose flux, preventing mitochondrial over-exhaustion.
+            </p>
+<div class="flex flex-wrap gap-space-sm pt-space-xs">
+<span class="bg-on-surface/60 backdrop-blur-md px-space-sm py-1 rounded text-caption font-caption text-secondary-fixed">
+                Magnetic Servo Brake • 0.1W Precision
+              </span>
+<span class="bg-on-surface/60 backdrop-blur-md px-space-sm py-1 rounded text-caption font-caption text-primary-fixed">
+                ANT+ / Bluetooth 5.3 Dual Mesh
+              </span>
+</div>
+</div>
+</div>
+<!-- Exercise Telemetry Dashboard & Bi-directional Recovery Feed -->
+<div class="lg:col-span-6 flex flex-col gap-space-md">
+<!-- Real-Time Workout Metric Row -->
+<div class="grid grid-cols-3 gap-space-sm">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col">
+<div class="flex items-center justify-between text-tertiary">
+<span class="font-caption text-caption uppercase">Power Output</span>
+<span class="material-symbols-outlined text-[16px] text-primary">bolt</span>
+</div>
+<span class="font-headline-md text-headline-md text-on-surface font-bold mt-1">245 <span class="font-caption text-caption text-tertiary">W</span></span>
+<span class="font-label-sm text-label-sm text-secondary font-bold mt-auto">+14% vs 4-wk FTP</span>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col">
+<div class="flex items-center justify-between text-tertiary">
+<span class="font-caption text-caption uppercase">Lactate Est.</span>
+<span class="material-symbols-outlined text-[16px] text-secondary">bloodtype</span>
+</div>
+<span class="font-headline-md text-headline-md text-on-surface font-bold mt-1">2.8 <span class="font-caption text-caption text-tertiary">mmol/L</span></span>
+<span class="font-label-sm text-label-sm text-primary font-bold mt-auto">Zone 2 Aerobic Base</span>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col">
+<div class="flex items-center justify-between text-tertiary">
+<span class="font-caption text-caption uppercase">VO2 Max Score</span>
+<span class="material-symbols-outlined text-[16px] text-tertiary">speed</span>
+</div>
+<span class="font-headline-md text-headline-md text-on-surface font-bold mt-1">54.2 <span class="font-caption text-caption text-tertiary">ml/kg</span></span>
+<span class="font-label-sm text-label-sm text-secondary font-bold mt-auto">Superior (Top 5%)</span>
+</div>
+</div>
+<!-- Bi-directional Nutrition Sync Feedback Box -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs text-primary">
+<span class="material-symbols-outlined text-[22px]">swap_horizontal_circle</span>
+<h4 class="font-title-md text-title-md font-bold text-on-surface">Bi-Directional Post-Exercise Trigger</h4>
+</div>
+<span class="px-space-sm py-0.5 rounded bg-surface-container text-primary font-label-sm text-label-sm font-bold uppercase">Automated Pipeline</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              When the workout terminates, power telemetry transmits calorie burn and estimated glycogen depletion straight to the <strong>RxSmart Kitchen Dispensary</strong>. Within 90 seconds, a calibrated post-workout recovery solution is automatically prepared.
+            </p>
+<!-- Pipeline step diagram -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm pt-space-xs">
+<div class="bg-surface-container-low p-space-sm rounded-lg flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-secondary font-bold">STEP 01</span>
+<span class="font-body-sm text-body-sm font-bold text-on-surface">Cadence &amp; Wattage Read</span>
+<span class="font-caption text-caption text-tertiary">842 kcal expenditure confirmed</span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-primary font-bold">STEP 02</span>
+<span class="font-body-sm text-body-sm font-bold text-on-surface">Glycogen Math Model</span>
+<span class="font-caption text-caption text-tertiary">Target: 32g carb + 24g whey pept.</span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-secondary font-bold">STEP 03</span>
+<span class="font-body-sm text-body-sm font-bold text-on-surface">Kitchen Dispense Ready</span>
+<span class="font-caption text-caption text-tertiary">Chilled recovery shake poured</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: Interactive Unified Wellness Score Simulator -->
+<section class="w-full px-margin py-space-xl bg-surface">
+<div class="max-w-[1440px] mx-auto bg-surface-container-low rounded-xl p-space-lg lg:p-space-xl shadow-md flex flex-col gap-space-lg">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Bio-Algorithmic Simulation</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold">Unified Wellness Score Simulator</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Explore how real-time micro-adjustments in Nutrition adherence, Sleep Architecture, and Exercise workload synthesize into an overarching biological readiness metric.
+          </p>
+</div>
+<div class="flex items-center gap-space-sm">
+<button class="px-space-md py-space-sm rounded-lg bg-surface-container-high text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-highest transition-colors flex items-center gap-1" id="resetSimBtn">
+<span class="material-symbols-outlined text-[16px]">refresh</span> Reset Presets
+          </button>
+</div>
+</div>
+<!-- Simulator Layout: 3 Sliders on Left, Live Score + Diagnostics on Right -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Interactive Sliders -->
+<div class="lg:col-span-7 flex flex-col gap-space-md bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<!-- Slider 1: Nutrition -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex justify-between items-center">
+<span class="font-title-md text-title-md text-on-surface font-bold flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px] text-secondary">restaurant</span> Nutrition &amp; Micronutrient Sync
+              </span>
+<span class="font-title-md text-title-md text-secondary font-bold" id="nutritionVal">85%</span>
+</div>
+<input class="w-full h-2 bg-surface-container rounded-lg appearance-none cursor-pointer accent-secondary" id="nutritionSlider" max="100" min="10" type="range" value="85">
+<div class="flex justify-between font-caption text-caption text-tertiary">
+<span>Erratic Glycemia (10%)</span>
+<span>Precision Automated Dispense (100%)</span>
+</div>
+</div>
+<!-- Slider 2: Sleep -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex justify-between items-center">
+<span class="font-title-md text-title-md text-on-surface font-bold flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px] text-primary">bedtime</span> Sleep Staging &amp; Thermal Balance
+              </span>
+<span class="font-title-md text-title-md text-primary font-bold" id="sleepVal">90%</span>
+</div>
+<input class="w-full h-2 bg-surface-container rounded-lg appearance-none cursor-pointer accent-primary" id="sleepSlider" max="100" min="10" type="range" value="90">
+<div class="flex justify-between font-caption text-caption text-tertiary">
+<span>Fragmented Circadian (&lt;5h)</span>
+<span>Synchronized Slow-Wave (8h+)</span>
+</div>
+</div>
+<!-- Slider 3: Exercise -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex justify-between items-center">
+<span class="font-title-md text-title-md text-on-surface font-bold flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px] text-tertiary">directions_bike</span> Exercise Workload &amp; FTP Sync
+              </span>
+<span class="font-title-md text-title-md text-on-surface font-bold" id="exerciseVal">78%</span>
+</div>
+<input class="w-full h-2 bg-surface-container rounded-lg appearance-none cursor-pointer accent-tertiary" id="exerciseSlider" max="100" min="10" type="range" value="78">
+<div class="flex justify-between font-caption text-caption text-tertiary">
+<span>Sedentary (Overtraining risk)</span>
+<span>Targeted Threshold Ergometer Peak</span>
+</div>
+</div>
+</div>
+<!-- Calculated Live Result Display -->
+<div class="lg:col-span-5 bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col items-center text-center gap-space-md">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-tertiary font-bold">Synthesized Readiness Metric</span>
+<div class="relative w-40 h-40 flex items-center justify-center">
+<svg class="w-full h-full -rotate-90" viewBox="0 0 120 120">
+<circle cx="60" cy="60" fill="none" r="50" stroke="#dce9ff" stroke-width="10"></circle>
+<circle class="transition-all duration-300 ease-out" cx="60" cy="60" fill="none" id="scoreRing" r="50" stroke="#006194" stroke-dasharray="314.15" stroke-dashoffset="40" stroke-linecap="round" stroke-width="10" style="stroke-dashoffset: 47.1225; stroke: rgb(0, 97, 148);"></circle>
+</svg>
+<div class="absolute flex flex-col items-center justify-center">
+<span class="font-headline-xl text-headline-xl text-primary font-bold" id="scoreDisplay">85</span>
+<span class="font-label-sm text-label-sm text-tertiary uppercase">READINESS</span>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="font-title-md text-title-md text-on-surface font-bold" id="scoreTitle">Optimal Homeostatic Peak</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-xs" id="scoreDesc">Cellular bioenergetics and neuro-rest recovery are synchronized. System capacity is prime for peak performance.</p>
+</div>
+<div class="w-full flex items-center justify-around pt-space-xs font-caption text-caption bg-surface-container-low p-space-sm rounded-lg">
+<div class="flex flex-col">
+<span class="text-tertiary">Metabolic Burn</span>
+<span class="font-bold text-on-surface" id="burnEst">2707 kcal/d</span>
+</div>
+<div class="flex flex-col">
+<span class="text-tertiary">Cellular Strain</span>
+<span class="font-bold text-secondary" id="strainEst">Minimal / Adaptable</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Platform Interconnection Architecture Strip -->
+<section class="w-full px-margin py-space-xl bg-surface-container-low/40">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Ecosystem Synergy</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Unified Telemetry Hardware Topology</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-space-xs">
+<span class="material-symbols-outlined">sensors</span>
+</div>
+<h4 class="font-title-md text-title-md font-bold text-on-surface">MicroNeedles CGM Disk</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Continuous sub-dermal glucose, ketone, and lactate monitoring every 60 seconds.</p>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-space-xs">
+<span class="material-symbols-outlined">blender</span>
+</div>
+<h4 class="font-title-md text-title-md font-bold text-on-surface">Precision Dispensers</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Automated daily nutrient synthesis keyed to real-time metabolic and exercise demand.</p>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-tertiary mb-space-xs">
+<span class="material-symbols-outlined">dark_mode</span>
+</div>
+<h4 class="font-title-md text-title-md font-bold text-on-surface">Neuro-Rest Engine</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Intelligent temperature control, ambient photon tuning, and deep REM sleep preservation.</p>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-space-xs">
+<span class="material-symbols-outlined">directions_bike</span>
+</div>
+<h4 class="font-title-md text-title-md font-bold text-on-surface">Connected Bike Loop</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Autonomous resistance tuning synced directly with post-exercise recovery nutrition.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive JavaScript Logic for Simulator -->
+<script>
+    (function initWellnessSimulator() {
+      const nutritionSlider = document.getElementById('nutritionSlider');
+      const sleepSlider = document.getElementById('sleepSlider');
+      const exerciseSlider = document.getElementById('exerciseSlider');
+
+      const nutritionVal = document.getElementById('nutritionVal');
+      const sleepVal = document.getElementById('sleepVal');
+      const exerciseVal = document.getElementById('exerciseVal');
+
+      const scoreDisplay = document.getElementById('scoreDisplay');
+      const scoreRing = document.getElementById('scoreRing');
+      const scoreTitle = document.getElementById('scoreTitle');
+      const scoreDesc = document.getElementById('scoreDesc');
+      const burnEst = document.getElementById('burnEst');
+      const strainEst = document.getElementById('strainEst');
+      const resetBtn = document.getElementById('resetSimBtn');
+
+      function calculateScore() {
+        const n = parseInt(nutritionSlider.value, 10);
+        const s = parseInt(sleepSlider.value, 10);
+        const e = parseInt(exerciseSlider.value, 10);
+
+        nutritionVal.textContent = n + '%';
+        sleepVal.textContent = s + '%';
+        exerciseVal.textContent = e + '%';
+
+        // Weighted algorithm: 40% sleep, 35% nutrition, 25% exercise
+        const composite = Math.round((s * 0.40) + (n * 0.35) + (e * 0.25));
+        scoreDisplay.textContent = composite;
+
+        // SVG circumference = 2 * PI * 50 = 314.15
+        const circumference = 314.15;
+        const offset = circumference - (composite / 100) * circumference;
+        scoreRing.style.strokeDashoffset = offset;
+
+        // Dynamic status
+        if (composite >= 85) {
+          scoreTitle.textContent = "Optimal Homeostatic Peak";
+          scoreDesc.textContent = "Cellular bioenergetics and neuro-rest recovery are synchronized. System capacity is prime for peak performance.";
+          strainEst.textContent = "Minimal / Adaptable";
+          burnEst.textContent = (2200 + Math.round(e * 6.5)) + " kcal/d";
+          scoreRing.style.stroke = "#006194";
+        } else if (composite >= 65) {
+          scoreTitle.textContent = "Balanced Metabolic Baseline";
+          scoreDesc.textContent = "Adequate recovery margins. Slight glycogen imbalance detected; recommended additional micronutrient hydration.";
+          strainEst.textContent = "Moderate (Manageable)";
+          burnEst.textContent = (2000 + Math.round(e * 5.5)) + " kcal/d";
+          scoreRing.style.stroke = "#00677d";
+        } else {
+          scoreTitle.textContent = "Sub-Threshold Exhaustion Risk";
+          scoreDesc.textContent = "High biological recovery debt. Advise lowering ergometer load, elevating sleep duration, and titrating recovery formula.";
+          strainEst.textContent = "Elevated (Rest Advised)";
+          burnEst.textContent = (1800 + Math.round(e * 4.0)) + " kcal/d";
+          scoreRing.style.stroke = "#ba1a1a";
+        }
+      }
+
+      if (nutritionSlider && sleepSlider && exerciseSlider) {
+        nutritionSlider.addEventListener('input', calculateScore);
+        sleepSlider.addEventListener('input', calculateScore);
+        exerciseSlider.addEventListener('input', calculateScore);
+      }
+
+      if (resetBtn) {
+        resetBtn.addEventListener('click', function() {
+          nutritionSlider.value = 85;
+          sleepSlider.value = 90;
+          exerciseSlider.value = 78;
+          calculateScore();
+        });
+      }
+
+      calculateScore();
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-low"><div class="w-full px-margin py-space-xl flex flex-col gap-space-lg"><div class="flex flex-col lg:flex-row lg:items-center justify-between gap-gutter"><div class="flex flex-col gap-space-xs"><div class="flex items-center gap-space-sm"><img alt="RxDigita Logo" class="h-7 w-7 object-contain rounded-full shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDl9hoJkLzulHJEJQEra7Uoj6IJFct8nXA3BfNC8KcMPswO-vuOHhGup5oALCW-3R666zVJU3qGBfAXDbyXdNuypHY3E5q2xfZsBFqxs0RXwSDsa1MmsA7shSLsbsfeMLeZyx5JFLgR-w2QlbyUcZZnS1M3189YFZGiNIiKsQ8LIIxMVuz0-DQRFZ1mQ1NLobt0hg2r2o5U_xvIlY0svHaw4aNHMLl_VJkCSl7U-BKe-pBlmblocbjR"><span class="font-title-md text-title-md text-primary font-bold">RxDigita</span><span class="font-caption text-caption text-secondary px-space-xs py-0.5 rounded-full bg-surface-container">Bio-Clinical OS</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-md">Next-generation precision biotechnology, IoT micro-sensing arrays, and continuous digital metabolic health platforms.</p></div><div class="flex flex-wrap items-center gap-gutter"><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="platforms" href="#">MicroNeedles</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="platforms" href="#">ADME-Tox</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="platforms" href="#">CGM Disk</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="innovation" href="#">RxApp</a></div></div><div class="h-[1px] w-full bg-surface-container"></div><div class="flex flex-col sm:flex-row items-center justify-between gap-space-md font-caption text-caption text-tertiary"><div class="flex items-center gap-gutter-sm"><a class="hover:text-on-surface transition-colors" data-path="company-legacy" href="#">Privacy Policy</a><a class="hover:text-on-surface transition-colors" data-path="company-legacy" href="#">Terms of Service</a><a class="hover:text-on-surface transition-colors" data-path="contact-us" href="#">Clinical Inquiries</a></div><div>© 2025 RxDigita Inc. All rights reserved. Precision Medical Systems.</div></div></div></footer>
+
+</body></html>

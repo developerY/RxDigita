@@ -1,0 +1,205 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #f8f9ff;
+  --color-surface-dim: #cbdbf5;
+  --color-surface-bright: #f8f9ff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #eff4ff;
+  --color-surface-container: #e5eeff;
+  --color-surface-container-high: #dce9ff;
+  --color-surface-container-highest: #d3e4fe;
+  --color-surface-variant: #d3e4fe;
+  --color-on-surface: #0b1c30;
+  --color-on-surface-variant: #3f4850;
+  --color-inverse-surface: #213145;
+  --color-inverse-on-surface: #eaf1ff;
+  --color-outline: #707881;
+  --color-outline-variant: #bfc7d2;
+  --color-surface-tint: #006398;
+  --color-primary: #006194;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #007bb9;
+  --color-on-primary-container: #fdfcff;
+  --color-inverse-primary: #93ccff;
+  --color-secondary: #00677d;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #63dbfe;
+  --color-on-secondary-container: #005e73;
+  --color-tertiary: #545c72;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #6c748b;
+  --color-on-tertiary-container: #fefcff;
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+  --color-primary-fixed: #cce5ff;
+  --color-primary-fixed-dim: #93ccff;
+  --color-on-primary-fixed: #001d31;
+  --color-on-primary-fixed-variant: #004b73;
+  --color-secondary-fixed: #b3ebff;
+  --color-secondary-fixed-dim: #5cd5f8;
+  --color-on-secondary-fixed: #001f27;
+  --color-on-secondary-fixed-variant: #004e5f;
+  --color-tertiary-fixed: #dae2fd;
+  --color-tertiary-fixed-dim: #bec6e0;
+  --color-on-tertiary-fixed: #131b2e;
+  --color-on-tertiary-fixed-variant: #3f465c;
+  --color-background: #f8f9ff;
+  --color-on-background: #0b1c30;
+  --color-warm-surface: #fff9ef;
+  --color-warm-glow: #ffedd5;
+  --color-aqua-surface: #eefcf9;
+  --color-aqua-glow: #ccfbf1;
+
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-space-xl: 2.5rem;
+  --spacing-gutter: 1.5rem;
+  --spacing-gutter-sm: 1rem;
+  --spacing-gutter-lg: 2rem;
+  --spacing-margin: 2rem;
+  --spacing-margin-sm: 1rem;
+  --spacing-margin-lg: 4rem;
+
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+    background-color: #f8f9ff;
+    color: #0b1c30;
+    overscroll-behavior: none;
+    scroll-behavior: smooth;
+  }
+}
+
+/* Design System Typography Utilities */
+.font-headline-xl,
+.text-headline-xl {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: clamp(2.125rem, 3.6vw, 3rem);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+}
+
+.font-headline-lg,
+.text-headline-lg {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: clamp(1.75rem, 2.8vw, 2.25rem);
+  line-height: 1.22;
+  letter-spacing: -0.025em;
+  font-weight: 700;
+}
+
+.font-headline-md,
+.text-headline-md {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: -0.015em;
+  font-weight: 600;
+}
+
+.font-headline-sm,
+.text-headline-sm {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+
+.font-title-md,
+.text-title-md {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.005em;
+  font-weight: 600;
+}
+
+.font-body-lg,
+.text-body-lg {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  letter-spacing: -0.005em;
+}
+
+.font-body-md,
+.text-body-md {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+}
+
+.font-body-sm,
+.text-body-sm {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.005em;
+}
+
+.font-label-md,
+.text-label-md {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+
+.font-label-sm,
+.text-label-sm {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 0.6875rem;
+  line-height: 1rem;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+}
+
+.font-caption,
+.text-caption {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+}
+
+/* Render Angular Material <mat-icon> with Material Symbols Outlined so all modern clinical icons render accurately */
+.mat-icon {
+  font-family: "Material Symbols Outlined" !important;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  width: auto !important;
+  height: auto !important;
+  font-size: inherit;
+}
+
+@media (max-width: 640px) {
+  :root {
+    --spacing-margin: 1rem;
+  }
+}
